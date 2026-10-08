@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="James Cedric M. Peralta - BSIT WMAD student portfolio.">
+    <title>Contact | Send a Message</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="ocean-particles" aria-hidden="true">
+    <span></span><span></span><span></span><span></span><span></span>
+    <span></span><span></span><span></span><span></span><span></span>
+</div>
+
+<header class="site-header">
+    <nav class="navbar container">
+        <a class="brand" href="index.html" aria-label="James Cedric home">
+            <span class="brand-icon">☠</span>
+            <span>JAMES CEDRIC</span>
+        </a>
+
+        <button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false">
+            <span></span><span></span><span></span>
+        </button>
+
+        <div class="nav-links">
+                <a class="" href="index.html">Home</a>
+                <a class="" href="about.html">About</a>
+                <a class="" href="skills.html">Skills</a>
+                <a class="" href="projects.html">Projects</a>
+                <a class="" href="education.html">Education</a>
+                <a class="active" href="contact.html">Contact</a>
+        </div>
+    </nav>
+</header>
+
+<main>
+
+<section class="page-hero">
+    <div class="container reveal">
+        <p class="eyebrow">🐌 DEN DEN MUSHI</p>
+        <h1>SEND A MESSAGE</h1>
+        <p>Have a question, project idea, or just want to say hello? Send a message through the Grand Line.</p>
+    </div>
+</section>
+
+<section class="section dark-section">
+    <div class="container contact-grid">
+        <div class="contact-log reveal">
+            <p class="eyebrow">TRANSMISSION LOG</p>
+            <h2>CONTACT THE CAPTAIN</h2>
+            <p>
+                This portfolio uses a simple HTML form with JavaScript validation. It does not require PHP or MySQL,
+                so it can be deployed directly to Vercel, GitHub Pages, or other static hosting.
+            </p>
+            <div class="contact-facts">
+                <div><span>🎓</span><strong>BSIT - WMAD</strong><small>3rd Year Student</small></div>
+                <div><span>🎨</span><strong>Portrait Drawing</strong><small>Favorite hobby</small></div>
+                <div><span>🔐</span><strong>Cybersecurity</strong><small>Dream career</small></div>
+            </div>
+        </div>
+
+        <div class="contact-shell reveal delay-1">
+            <div class="alert success" id="formSuccess" hidden>Your message has reached the Grand Line! 🏴‍☠️</div>
+            <div class="alert error" id="formError" hidden></div>
+
+            <form id="contactForm" class="contact-form">
+                <label for="name">NAME</label>
+                <input type="text" id="name" name="name" maxlength="100" required placeholder="Enter your name">
+
+                <label for="email">EMAIL</label>
+                <input type="email" id="email" name="email" maxlength="150" required placeholder="you@example.com">
+
+                <label for="message">MESSAGE</label>
+                <textarea id="message" name="message" rows="7" maxlength="2000" required placeholder="Write your message..."></textarea>
+
+                <button class="btn btn-gold full-width" type="submit">SEND MESSAGE ⚓</button>
+                <p class="form-note">Static demo only. The form validates your input but does not send a real email.</p>
+            </form>
+        </div>
+    </div>
+</section>
+</main>
+
+<footer class="site-footer">
+    <div class="container footer-content">
+        <div>
+            <div class="footer-brand">☠ JAMES CEDRIC M. PERALTA</div>
+            <p>Set sail. Keep learning. Keep creating.</p>
+        </div>
+        <div class="footer-mark">⚓ • 🌊 • 🗺 • 💰</div>
+    </div>
+    <div class="footer-bottom">
+        <p>© 2026 James Cedric M. Peralta. Built for the Grand Line of technology.</p>
+    </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
